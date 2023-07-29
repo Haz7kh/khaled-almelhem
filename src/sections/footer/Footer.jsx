@@ -1,3 +1,4 @@
+import React from "react";
 import { links, socials } from "./data";
 import "./footer.css";
 
@@ -26,7 +27,13 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-copyright">
-        <small>2023 Khaled Almelhem Portfolio &copy; All Rights Reserved</small>
+        <small>
+          {" "}
+          <div>
+            &copy; {new Date().getFullYear()} Khaled Almelhem Portfolio. All
+            rights reserved.
+          </div>
+        </small>
       </div>
     </footer>
   );
