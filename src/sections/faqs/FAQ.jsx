@@ -4,6 +4,7 @@ import { useState } from "react";
 
 const FAQ = ({ faq }) => {
   const [showAnswer, setShowAnswer] = useState(false);
+
   return (
     <Card className="faq" onClick={() => setShowAnswer((prev) => !prev)}>
       <div>
