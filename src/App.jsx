@@ -8,11 +8,13 @@ import Testimonials from "./sections/testimonials/Testimonials";
 import FAQs from "./sections/faqs/FAQs";
 import Contact from "./sections/contact/Contact";
 import Footer from "./sections/footer/Footer";
-import Modal from "./components/Modal";
+import Theme from "./theme/Theme";
+import { useThemeContext } from "./context/theme-context";
 
 const App = () => {
+  const { themeState } = useThemeContext();
   return (
-    <main>
+    <main className={`${themeState.primary} ${themeState.background}`}>
       <NavBar />
       <Header />
       <About />
@@ -22,7 +24,7 @@ const App = () => {
       <FAQs />
       <Contact />
       <Footer />
-      <Modal />
+      <Theme />
     </main>
   );
 };
