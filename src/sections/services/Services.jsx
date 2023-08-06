@@ -8,7 +8,7 @@ const Services = () => {
     <section id="services">
       <h2>Services</h2>
       <p>I give you the best in all the services below</p>
-      <div className="container  services-container">
+      <div className="container  services-container" data-aos="fade-up">
         {data.map((card) => (
           <Card key={card.id} className="service light">
             <div className="service-icon">{card.icon}</div>

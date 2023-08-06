@@ -8,7 +8,7 @@ import Card from "../../components/Card";
 
 const About = () => {
   return (
-    <section id="about">
+    <section id="about" data-aos="fade-in">
       <div className="container about-container">
         <div className="about-left">
           <div className="about-portrait">

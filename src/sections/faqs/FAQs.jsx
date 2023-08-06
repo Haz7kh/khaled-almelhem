@@ -1,8 +1,14 @@
 import FAQ from "./FAQ";
 import faqs from "./data";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./faqs.css";
+import { useEffect } from "react";
 
 const FAQs = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <section id="faqs">
       <h2>Frequently Asked Questions</h2>
@@ -11,7 +17,7 @@ const FAQs = () => {
         if you still have some more questions, shoot me a message from the
         contact section!
       </p>
-      <div className="container faqs-container">
+      <div className="container faqs-container" data-aos="fade-in">
         {faqs.map((faq) => (
           <FAQ key={faq.id} faq={faq} />
         ))}
