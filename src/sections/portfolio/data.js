@@ -3,6 +3,7 @@ import Image2 from "../../assets/project2.jpg";
 import Image3 from "../../assets/project3.jpg";
 import Image4 from "../../assets/project4.jpg";
 import Image8 from "../../assets/project8.jpg";
+import Image6 from "../../assets/proj6.png";
 
 const data = [
   {
@@ -48,6 +49,15 @@ const data = [
     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
     demo: "http://egatortutorials.com",
     github: "https://github.com/egattor",
+  },
+  {
+    id: 6,
+    category: "uiux",
+    image: Image6,
+    title: "Web-Design (UI/UX)",
+    desc: "A cool design for a website designed by using Canva",
+    demo: "https://e-shop-c.my.canva.site/",
+    github: "",
   },
 ];
 
