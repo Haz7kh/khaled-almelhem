@@ -54,6 +54,12 @@
 .about-right .btn {
   margin-top: 2.5rem;
 }
+.btn-read {
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: 0.5rem;
+  border-radius: 5px;
+}
 
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {
