@@ -1,9 +1,9 @@
-import Image1 from "../../assets/project1.jpg";
-import Image2 from "../../assets/project2.jpg";
-import Image3 from "../../assets/project3.jpg";
-import Image4 from "../../assets/project4.jpg";
-import Image8 from "../../assets/project8.jpg";
-import Image6 from "../../assets/proj6.png";
+import Image1 from "../../assets/p1.png";
+import Image2 from "../../assets/p3.png";
+import Image3 from "../../assets/p4.png";
+import Image4 from "../../assets/p2.png";
+import Image6 from "../../assets/p6.png";
+import Image7 from "../../assets/post2.png";
 
 const data = [
   {
@@ -40,23 +40,22 @@ const data = [
     demo: "",
     github: "",
   },
-
-  {
-    id: 5,
-    category: "backend",
-    image: Image8,
-    title: "Project Title Eight (Backend)",
-    desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-    demo: "http://egatortutorials.com",
-    github: "https://github.com/egattor",
-  },
   {
     id: 6,
     category: "uiux",
     image: Image6,
     title: "Web-Design (UI/UX)",
-    desc: "A cool design for a website designed by using Canva",
+    desc: "A cool design for a website designed by using Canva, responsive UX/UI web design",
     demo: "https://e-shop-c.my.canva.site/",
+    github: "",
+  },
+  {
+    id: 7,
+    category: "Graphics design",
+    image: Image7,
+    title: "Post Design (Graphics)",
+    desc: "A cool design for a social media post or Ads you can use it in instagram, facebook or whatsApp status",
+    demo: "",
     github: "",
   },
 ];
