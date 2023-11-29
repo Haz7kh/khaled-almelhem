@@ -13,6 +13,7 @@ import Theme from "./theme/Theme";
 import { useThemeContext } from "./context/theme-context";
 import FloatingNav from "./sections/floating-nav/FloatingNav";
 import { useRef, useState, useEffect } from "react";
+import DesignGrid from "./sections/graficdesigns/Grafics";
 
 const App = () => {
   const { themeState } = useThemeContext();
@@ -60,6 +61,7 @@ const App = () => {
       <About />
       <Services />
       <Portfolio />
+      <DesignGrid />
       <Testimonials />
       <FAQs />
       <Contact />

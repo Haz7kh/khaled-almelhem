@@ -3,7 +3,6 @@ import Image2 from "../../assets/p3.png";
 import Image3 from "../../assets/p4.png";
 import Image4 from "../../assets/p2.png";
 import Image6 from "../../assets/p6.png";
-import Image7 from "../../assets/post2.png";
 
 const data = [
   {
@@ -47,15 +46,6 @@ const data = [
     title: "Web-Design (UI/UX)",
     desc: "A cool design for a website designed by using Canva, responsive UX/UI web design",
     demo: "https://e-shop-c.my.canva.site/",
-    github: "",
-  },
-  {
-    id: 7,
-    category: "Graphics design",
-    image: Image7,
-    title: "Post Design (Graphics)",
-    desc: "A cool design for a social media post or Ads you can use it in instagram, facebook or whatsApp status",
-    demo: "",
     github: "",
   },
 ];
