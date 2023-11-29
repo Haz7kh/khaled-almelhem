@@ -24,14 +24,12 @@ const DesignGrid = () => {
         <div className="design-items">
           {designs.map((design) => (
             <div key={design.id} className="design-item">
+              <h4 className="design-info">{design.title}</h4>
               <img src={design.image} alt={design.title} />
 
-              <div className="design-info">
-                <p className="design-title">{design.title}</p>
-                <button onClick={() => handleDesignClick(design)}>
-                  View Details
-                </button>
-              </div>
+              <button onClick={() => handleDesignClick(design)}>
+                View Details
+              </button>
             </div>
           ))}
         </div>
