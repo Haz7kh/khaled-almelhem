@@ -14,8 +14,8 @@ header {
 }
 .header-profile {
   width: 18rem;
-  height: 22rem;
-  border-radius: 9rem 9rem 2rem 2rem;
+  height: 18rem;
+  border-radius: 50%;
   overflow: hidden;
   margin-bottom: 1.5rem;
 }

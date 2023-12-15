@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./about.css";
 import AboutImg from "../../assets/about-me.png";
-import CV from "../../assets/cv2.pdf";
+import CV from "../../assets/khcv.pdf";
 import { AiOutlineCloudDownload } from "react-icons/ai";
 import data from "./data";
 import Card from "../../components/Card";
