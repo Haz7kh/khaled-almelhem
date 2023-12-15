@@ -9,9 +9,12 @@ const NavBar = () => {
   return (
     <nav>
       <div className="container nav_container">
-        <a href="index.html" className="nav_logo">
-          <img src={Logo} alt="Logo" />
-        </a>
+        <div className="nav_logo">
+          <a href="index.html">
+            <img src={Logo} alt="Logo" />
+          </a>
+        </div>
+        <div className="nav_menu"></div>
         <ul className="nav_menu">
           {data.map((item) => (
             <li key={item.id}>
@@ -19,10 +22,10 @@ const NavBar = () => {
             </li>
           ))}
         </ul>
-        <button id="theme__icon" onClick={showModalHandler}>
-          <IoIosColorPalette />
-        </button>
       </div>
+      <button id="theme__icon" onClick={showModalHandler}>
+        <IoIosColorPalette />
+      </button>
     </nav>
   );
 };

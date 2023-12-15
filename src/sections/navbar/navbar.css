@@ -1,7 +1,7 @@
 nav {
   width: 100vw;
   height: 5rem;
-  display: grid;
+  display: flex;
   place-items: center;
   background: var(--color-primary);
   position: fixed;
@@ -13,24 +13,38 @@ nav {
 }
 .nav_container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  padding: 0 3rem; /* Add padding to the container to create space */
 }
 
 .nav_logo {
-  width: 5.5rem;
+  width: 7rem; /* Increase the width as needed */
   overflow: hidden;
+  margin-bottom: 0.7rem; /* Adjust the margin-bottom as needed */
+  margin-right: 13rem;
 }
 .nav_menu {
   display: flex;
-  gap: 3.5rem;
+  gap: 2.7rem; /* Decrease the gap as needed */
+  list-style: none;
+  margin: 10px;
 }
+
+.nav_menu a {
+  text-decoration: none;
+  color: white;
+  gap: 1rem;
+  font-size: 0.9rem;
+}
+
 #theme__icon {
   background: transparent;
   color: white;
   font-size: 2rem;
   cursor: pointer;
 }
+
 /* HIDE NAV MENU ON TABLETS AND PHONES */
 @media screen and (max-width: 1024px) {
   .nav_menu {

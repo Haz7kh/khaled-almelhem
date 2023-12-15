@@ -17,19 +17,22 @@ const DesignGrid = () => {
   return (
     <section id="graphic">
       <div className="design-grid">
-        <h2>Graphics Designs</h2>
+        <h2 className="title">Graphics Designs</h2>
         <p className="design-description">
           Explore a collection of my graphic design projects below.
         </p>
         <div className="design-items">
           {designs.map((design) => (
             <div key={design.id} className="design-item">
-              <h4 className="design-info">{design.title}</h4>
-              <img src={design.image} alt={design.title} />
-
-              <button onClick={() => handleDesignClick(design)}>
-                View Details
-              </button>
+              <div className="img-container">
+                <img src={design.image} alt={design.title} />
+              </div>
+              <div className="button-container">
+                <h4 className="design-info">{design.title}</h4>
+                <button onClick={() => handleDesignClick(design)}>
+                  View Details
+                </button>
+              </div>
             </div>
           ))}
         </div>
