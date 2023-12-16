@@ -3,6 +3,8 @@ import Image2 from "../../assets/p3.png";
 import Image3 from "../../assets/p4.png";
 import Image4 from "../../assets/p2.png";
 import Image6 from "../../assets/p6.png";
+import Image7 from "../../assets/projectjurid.png";
+import Image8 from "../../assets/projectwm.png";
 
 const data = [
   {
@@ -46,6 +48,24 @@ const data = [
     title: "Web-Design (UI/UX)",
     desc: "A cool design for a website designed by using Canva, responsive UX/UI web design",
     demo: "https://e-shop-c.my.canva.site/",
+    github: "",
+  },
+  {
+    id: 7,
+    category: "live-projects",
+    image: Image7,
+    title: "Web-development  ",
+    desc: "Crafted personalized website. Sleek design, intuitive navigation, and dynamic features showcase identity for impactful online presence",
+    demo: "https://juridikjm.se/",
+    github: "",
+  },
+  {
+    id: 8,
+    category: "live-projects",
+    image: Image8,
+    title: "Web-development  ",
+    desc: "Crafted personalized website. Sleek design, intuitive navigation, and dynamic features showcase identity for impactful online presence",
+    demo: "hhttps://www.wmservice.se/",
     github: "",
   },
 ];
