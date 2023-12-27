@@ -1,7 +1,7 @@
 import design1 from "../../assets/post2.png";
-import design2 from "../../assets/gd/postAd.png";
+import design2 from "../../assets/gd/product2.png";
 import design3 from "../../assets/gd/wedding-poster.png";
-import design4 from "../../assets/gd/birthday.png";
+import design4 from "../../assets/gd/product1.png";
 import design5 from "../../assets/gd/newcolllection.png";
 import design6 from "../../assets/gd/postermodel.png";
 import design7 from "../../assets/gd/dark-big-logo.png";
@@ -15,7 +15,7 @@ const designs = [
   },
   {
     id: 2,
-    title: "Ad/post",
+    title: "3D Product",
     image: design2,
   },
   {
@@ -25,7 +25,7 @@ const designs = [
   },
   {
     id: 4,
-    title: "Poster",
+    title: "3D Product",
     image: design4,
   },
   {
