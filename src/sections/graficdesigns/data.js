@@ -6,6 +6,7 @@ import design5 from "../../assets/gd/newcolllection.png";
 import design6 from "../../assets/gd/postermodel.png";
 import design7 from "../../assets/gd/dark-big-logo.png";
 import design8 from "../../assets/gd/discount-poster.png";
+import design9 from "../../assets/gd/serum.png";
 
 const designs = [
   {
@@ -47,6 +48,11 @@ const designs = [
     id: 8,
     title: "Poster",
     image: design8,
+  },
+  {
+    id: 8,
+    title: "3D Product",
+    image: design9,
   },
 ];
 
