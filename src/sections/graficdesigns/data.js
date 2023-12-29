@@ -50,7 +50,7 @@ const designs = [
     image: design8,
   },
   {
-    id: 8,
+    id: 9,
     title: "3D Product",
     image: design9,
   },
