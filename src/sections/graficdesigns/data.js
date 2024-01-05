@@ -7,6 +7,10 @@ import design6 from "../../assets/gd/postermodel.png";
 import design7 from "../../assets/gd/dark-big-logo.png";
 import design8 from "../../assets/gd/discount-poster.png";
 import design9 from "../../assets/gd/serum.png";
+import design10 from "../../assets/gd/3d-sence.png";
+import design11 from "../../assets/gd/abajour.png";
+import design12 from "../../assets/gd/perfum.png";
+import design13 from "../../assets/gd/tube.png";
 
 const designs = [
   {
@@ -53,6 +57,26 @@ const designs = [
     id: 9,
     title: "3D Product",
     image: design9,
+  },
+  {
+    id: 10,
+    title: "3D Product",
+    image: design10,
+  },
+  {
+    id: 11,
+    title: "3D Product",
+    image: design11,
+  },
+  {
+    id: 12,
+    title: "3D Product",
+    image: design12,
+  },
+  {
+    id: 13,
+    title: "3D Product",
+    image: design13,
   },
 ];
 
