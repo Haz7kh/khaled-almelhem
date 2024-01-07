@@ -37,6 +37,12 @@ nav {
   gap: 1rem;
   font-size: 0.9rem;
 }
+.nav_menu a:hover {
+  text-decoration: none;
+  color: #33007a;
+  gap: 1rem;
+  font-size: 0.9rem;
+}
 
 #theme__icon {
   background: transparent;
