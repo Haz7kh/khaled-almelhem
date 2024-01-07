@@ -1,9 +1,9 @@
 nav {
   width: 100vw;
-  height: 5rem;
+  height: 7rem;
   display: flex;
   place-items: center;
-  background: var(--color-primary);
+  background: white;
   position: fixed;
   top: 0;
   left: 0;
@@ -19,9 +19,9 @@ nav {
 }
 
 .nav_logo {
-  width: 7rem; /* Increase the width as needed */
+  width: 5rem; /* Increase the width as needed */
   overflow: hidden;
-  margin-bottom: 0.7rem; /* Adjust the margin-bottom as needed */
+  margin-bottom: 0.3rem; /* Adjust the margin-bottom as needed */
   margin-right: 13rem;
 }
 .nav_menu {
@@ -33,7 +33,7 @@ nav {
 
 .nav_menu a {
   text-decoration: none;
-  color: white;
+  color: #000080;
   gap: 1rem;
   font-size: 0.9rem;
 }
