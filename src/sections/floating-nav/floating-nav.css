@@ -29,7 +29,7 @@
   .scrollspy {
     display: flex;
     gap: 1rem;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(255, 165, 0, 0.4);
     padding: 0.8rem 1.5rem;
     border-radius: 3rem;
     backdrop-filter: blur(20px);
@@ -44,6 +44,6 @@
   }
 
   #floating__nav li.active a {
-    background: var(--color-primary);
+    background: #000080;
   }
 }

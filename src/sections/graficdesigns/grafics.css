@@ -33,7 +33,7 @@
   position: relative;
   overflow: hidden;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px #ffa500;
   transition: transform 0.3s ease;
   height: 300px; /* Set a fixed height for the design items */
 }
@@ -67,8 +67,8 @@ button {
   display: block;
   width: 100%;
   padding: 10px;
-  background-color: var(--color-primary);
-  color: #fff;
+  background-color: #ffa500;
+  color: #000080;
   border: none;
   border-radius: 0 0 8px 8px;
   cursor: pointer;
@@ -99,7 +99,7 @@ button {
   right: 10px;
   background: none;
   border: none;
-  color: #fff;
+  color: #ffa500;
   font-size: 2em;
   cursor: pointer;
 }

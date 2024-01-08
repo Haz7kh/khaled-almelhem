@@ -30,8 +30,9 @@
 
 .swiper-pagination {
   margin-bottom: 8rem;
+  color: var#ffa500;
 }
 
 .swiper-pagination-bullet {
-  background: var(--color-primary);
+  color: var#ffa500;
 }

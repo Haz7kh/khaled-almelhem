@@ -107,7 +107,7 @@ section > p {
 
 /* GENERAL SECTION STYLES */
 a {
-  color: var(--color-white);
+  color: #ffa500;
   transition: var(--transition);
 }
 
@@ -159,8 +159,8 @@ img {
   display: flex;
   align-items: center;
   gap: 1rem;
-  background: var(--color-light);
-  color: var(--color-black);
+  background: #ffa500;
+  color: #000080;
   padding: 0.6rem 2.5rem;
   border: 2px solid transparent;
   border-radius: var(--border-radius-2);
@@ -169,7 +169,8 @@ img {
 
 .btn:hover {
   background-color: transparent;
-  border-color: var(--color-light);
+  border-color: #fff;
+  color: #ffa500;
   transform: translateY(-0.5rem);
 }
 
@@ -183,15 +184,15 @@ img {
 }
 
 .btn.primary {
-  background: var(--color-primary);
+  background: #ffa500;
   /* text color always white that's why i didn't use a variable color */
-  color: white;
+  color: #000080;
 }
 
 .btn.primary:hover {
   background: transparent;
-  border-color: var(--color-primary);
-  color: var(--color-primary);
+  border-color: #fff;
+  color: #ffa500;
 }
 
 .btn.sm {

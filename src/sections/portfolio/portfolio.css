@@ -8,6 +8,7 @@
 .btn.cat-btn {
   text-transform: capitalize;
   transition: var(--transition);
+  color: #fff;
 }
 
 .btn.cat-btn:hover {
