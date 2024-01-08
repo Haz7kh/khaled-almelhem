@@ -8,7 +8,7 @@
 .btn.cat-btn {
   text-transform: capitalize;
   transition: var(--transition);
-  color: #fff;
+  color: #606060;
 }
 
 .btn.cat-btn:hover {
@@ -62,8 +62,8 @@
 
 .portfolio-project:hover .btn.sm.primary {
   background: transparent;
-  color: var(--color-primary);
-  border-color: var(--color-primary);
+  color: #000080;
+  border-color: #ffa500;
 }
 
 /* MEDIA QUERIES (tablets) */

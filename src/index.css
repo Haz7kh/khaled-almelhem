@@ -41,26 +41,6 @@ body {
   font-size: 0.9rem;
 }
 
-/* THEME change using react */
-main.color-1 {
-  --primary-hue: 270;
-}
-main.color-2 {
-  --primary-hue: 110;
-}
-main.color-3 {
-  --primary-hue: 240;
-}
-main.color-4 {
-  --primary-hue: 325;
-}
-main.color-5 {
-  --primary-hue: 0;
-}
-main.color-6 {
-  --primary-hue: 55;
-}
-
 main.bg-2 {
   --black-lightness: 96%;
   --dark-lightness: 60%;
@@ -119,7 +99,7 @@ h4,
 h5,
 h6 {
   line-height: 1.1;
-  color: var(--color-black);
+  color: rgba(255, 165, 0, 1);
 }
 
 h1 {

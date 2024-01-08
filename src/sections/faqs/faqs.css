@@ -5,6 +5,11 @@
   align-items: start;
 }
 
+.card.faq {
+  cursor: pointer;
+  background: #000080;
+}
+
 .card.faq:hover {
   cursor: pointer;
   background: #000080;

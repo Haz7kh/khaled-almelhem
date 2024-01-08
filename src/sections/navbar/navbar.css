@@ -21,8 +21,17 @@ nav {
   width: 100%;
   background-color: #ffa500;
   gap: 150px;
+  transition: background-color 0.3s ease-in-out;
 }
 
+.nav_container.scrolled {
+  background-color: rgba(
+    255,
+    165,
+    0,
+    0.8
+  ); /* Adjust the alpha channel as needed */
+}
 /* Navbar Logo */
 .nav_logo {
   width: 6rem;
@@ -71,4 +80,14 @@ nav {
   .nav_menu {
     display: none;
   }
+}
+
+.scrolled {
+  background-color: rgba(
+    0,
+    0,
+    128,
+    0.5
+  ); /* Change the background color when scrolled */
+  box-shadow: 0 1rem 1.5rem hsla(var(--primary-hue), 68%, 42%, 20%);
 }

@@ -9,7 +9,7 @@
   width: 5rem;
   aspect-ratio: 1/1;
   color: #ffa500;
-  background: var(--color-primary);
+  background: #000080;
   display: grid;
   place-items: center;
   font-size: 2rem;

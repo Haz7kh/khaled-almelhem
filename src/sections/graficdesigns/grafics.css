@@ -73,6 +73,9 @@ button {
   border-radius: 0 0 8px 8px;
   cursor: pointer;
 }
+button:hover {
+  color: #fff;
+}
 
 .popup {
   position: fixed;

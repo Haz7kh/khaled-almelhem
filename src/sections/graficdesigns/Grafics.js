@@ -29,7 +29,10 @@ const DesignGrid = () => {
               </div>
               <div className="button-container">
                 <h4 className="design-info">{design.title}</h4>
-                <button onClick={() => handleDesignClick(design)}>
+                <button
+                  className="button-view"
+                  onClick={() => handleDesignClick(design)}
+                >
                   View Details
                 </button>
               </div>
