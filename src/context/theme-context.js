@@ -5,8 +5,7 @@ export const ThemeContext = createContext();
 
 // get theme settings from local storage, or use default theme
 const initialThemeState = JSON.parse(localStorage.getItem("themeSettings")) || {
-  primary: "color-1",
-  background: "bg-1",
+  background: "bg-2",
 };
 
 export const ThemeProvider = ({ children }) => {
@@ -22,7 +21,7 @@ export const ThemeProvider = ({ children }) => {
   // save theme settings to local storage
   useEffect(() => {
     localStorage.setItem("themeSettings", JSON.stringify(themeState));
-  }, [themeState.primary, themeState.background, themeState]);
+  }, [themeState.background, themeState]);
 
   return (
     <ThemeContext.Provider value={{ themeState, themeHandler }}>

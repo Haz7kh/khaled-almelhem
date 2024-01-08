@@ -41,37 +41,6 @@
   margin-top: 1rem;
 }
 
-.theme__primary-colors button {
-  width: 2rem;
-  aspect-ratio: 1/1;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.theme__primary-colors .color-1 {
-  background: hsl(270, 70%, 46%);
-}
-
-.theme__primary-colors .color-2 {
-  background: hsl(110, 70%, 46%);
-}
-
-.theme__primary-colors .color-3 {
-  background: hsl(240, 70%, 46%);
-}
-
-.theme__primary-colors .color-4 {
-  background: hsl(325, 70%, 46%);
-}
-
-.theme__primary-colors .color-5 {
-  background: hsl(0, 70%, 46%);
-}
-
-.theme__primary-colors .color-6 {
-  background: hsl(52, 70%, 46%);
-}
-
 .theme__background-colors {
   display: flex;
   justify-content: center;
