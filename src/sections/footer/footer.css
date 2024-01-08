@@ -1,5 +1,5 @@
 footer {
-  background: var(--color-primary);
+  background: #000080;
   padding-top: 8rem;
   box-shadow: 0 -1rem 1.5rem hsla(var(--primary-hue), 68%, 42%, 20%);
   transition: var(--transition);
@@ -24,7 +24,7 @@ footer {
 }
 
 .nav-menu a {
-  color: var(--color-white);
+  color: #ffa500;
   text-decoration: none;
   transition: transform 0.3s ease;
 }
@@ -37,8 +37,8 @@ footer {
 }
 
 .footer-socials a {
-  background: var(--color-black);
-  color: var(--color-white);
+  background: #ffa500;
+  color: #000080;
   padding: 0.6rem;
   border-radius: var(--border-radius-3);
 }
@@ -46,12 +46,13 @@ footer {
 .footer-socials a:hover {
   opacity: 0.7;
   transform: translateY(-0.5rem);
+  background: #fff;
 }
 
 .footer-copyright {
-  color: white;
+  color: #ffa500;
   text-align: center;
-  border-top: 2px solid rgba(0, 0, 0, 0.2);
+  border-top: 2px solid rgba(255, 165, 0, 0.4);
   padding: 1.5rem 0;
 }
 

@@ -8,7 +8,7 @@
 .contact-container a {
   width: 5rem;
   aspect-ratio: 1/1;
-  color: white;
+  color: #ffa500;
   background: var(--color-primary);
   display: grid;
   place-items: center;
@@ -19,8 +19,8 @@
 
 .contact-container a:hover {
   background: transparent;
-  border-color: var(--color-primary);
-  color: var(--color-primary);
+  border-color: #ffa500;
+  color: #ffffff;
   transform: translateY(-0.5rem);
 }
 
