@@ -1,57 +1,69 @@
 nav {
-  width: 100vw;
-  height: 7rem;
+  width: 100%;
+  height: 8rem;
   display: flex;
-  place-items: center;
-  background: rgb(199, 242, 255);
+  align-items: center;
+  background: #000080;
   position: fixed;
   top: 0;
-  left: 0;
+  left: 20;
   z-index: 9;
   box-shadow: 0 1rem 1.5rem hsla(var(--primary-hue), 68%, 42%, 20%);
   transition: var(--transition);
 }
+
+/* Navbar Container */
 .nav_container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding: 0 3rem; /* Add padding to the container to create space */
+  padding: 0 3rem;
+  width: 100%;
+  background-color: #ffa500;
+  gap: 150px;
 }
 
+/* Navbar Logo */
 .nav_logo {
-  width: 5rem; /* Increase the width as needed */
+  width: 6rem;
   overflow: hidden;
-  margin-bottom: 0.3rem; /* Adjust the margin-bottom as needed */
-  margin-right: 13rem;
+  margin-top: 0.5rem;
 }
+
+/* Navbar Menu */
 .nav_menu {
   display: flex;
-  gap: 2.7rem; /* Decrease the gap as needed */
   list-style: none;
-  margin: 10px;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1; /* Allow the menu to take remaining space */
+  justify-content: center; /* Center the menu items */
+}
+
+.nav_menu li {
+  margin-right: 2.7rem;
 }
 
 .nav_menu a {
   text-decoration: none;
   color: #000080;
-  gap: 1rem;
   font-size: 0.9rem;
-}
-.nav_menu a:hover {
-  text-decoration: none;
-  color: #33007a;
-  gap: 1rem;
-  font-size: 0.9rem;
+  transition: color 0.3s ease-in-out;
 }
 
+.nav_menu a:hover {
+  color: #ffffff;
+}
+
+/* Theme Icon */
 #theme__icon {
   background: transparent;
-  color: white;
+  color: #ffa500;
   font-size: 2rem;
   cursor: pointer;
 }
 
-/* HIDE NAV MENU ON TABLETS AND PHONES */
+/* Responsive Design */
 @media screen and (max-width: 1024px) {
   .nav_menu {
     display: none;

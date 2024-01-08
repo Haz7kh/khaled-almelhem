@@ -23,9 +23,9 @@ const NavBar = () => {
           ))}
         </ul>
       </div>
-      {/* <button id="theme__icon" onClick={showModalHandler}>
+      <button id="theme__icon" onClick={showModalHandler}>
         <IoIosColorPalette />
-      </button> */}
+      </button>
     </nav>
   );
 };
