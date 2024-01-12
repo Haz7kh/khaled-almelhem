@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./navbar.css";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/svg-logo.svg";
 import data from "./data";
 import { WiMoonAltWaningGibbous6 } from "react-icons/wi";
 import { useModalContext } from "../../context/modal-context";

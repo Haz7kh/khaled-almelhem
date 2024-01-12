@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./about.css";
-import AboutImg from "../../assets/logo.png";
+import AboutImg from "../../assets/svg-logo.svg";
 import CV from "../../assets/khcv.pdf";
 import { AiOutlineCloudDownload } from "react-icons/ai";
 import data from "./data";

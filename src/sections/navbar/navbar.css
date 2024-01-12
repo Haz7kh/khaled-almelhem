@@ -43,7 +43,7 @@ nav {
 
 /* Navbar Logo */
 .nav_logo {
-  width: 6rem;
+  width: 20rem;
   overflow: hidden;
   margin-top: 0.5rem;
 }
@@ -88,6 +88,11 @@ nav {
 @media screen and (max-width: 1024px) {
   .nav_menu {
     display: none;
+  }
+  .nav_logo {
+    width: 15rem;
+    overflow: hidden;
+    margin-top: 0.5rem;
   }
 }
 
