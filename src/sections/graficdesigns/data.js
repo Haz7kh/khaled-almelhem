@@ -16,6 +16,7 @@ import design15 from "../../assets/gd/robot.png";
 import design16 from "../../assets/gd/owlbox.png";
 import design17 from "../../assets/gd/shapes-logo.png";
 import design18 from "../../assets/gd/shap-logo02.png";
+import design19 from "../../assets/gd/in-post.png";
 
 const designs = [
   {
@@ -107,6 +108,11 @@ const designs = [
     id: 18,
     title: "Illustrator Shape ",
     image: design18,
+  },
+  {
+    id: 19,
+    title: "Product Poster 3D ",
+    image: design19,
   },
 ];
 
