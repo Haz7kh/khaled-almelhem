@@ -2,13 +2,13 @@ import design1 from "../../assets/post2.png";
 import design2 from "../../assets/gd/product2.png";
 import design3 from "../../assets/gd/wedding-poster.png";
 import design4 from "../../assets/gd/product1.png";
-import design5 from "../../assets/gd/newcolllection.png";
+import design5 from "../../assets/gd/perfume-pack.png";
 import design6 from "../../assets/gd/postermodel.png";
-import design7 from "../../assets/gd/dark-big-logo.png";
+import design7 from "../../assets/gd/perfume-water.png";
 import design8 from "../../assets/gd/discount-poster.png";
-import design9 from "../../assets/gd/serum.png";
-import design10 from "../../assets/gd/3d-sence.png";
-import design11 from "../../assets/gd/abajour.png";
+import design9 from "../../assets/gd/spray1.png";
+import design10 from "../../assets/gd/t-shirt.png";
+import design11 from "../../assets/gd/perfume1.png";
 import design12 from "../../assets/gd/perfum.png";
 import design13 from "../../assets/gd/tube.png";
 import design14 from "../../assets/gd/jambottle.png";
@@ -41,7 +41,7 @@ const designs = [
   },
   {
     id: 5,
-    title: "Poster",
+    title: "3D-Product",
     image: design5,
   },
   {
@@ -51,7 +51,7 @@ const designs = [
   },
   {
     id: 7,
-    title: "Logo",
+    title: "3D-Product",
     image: design7,
   },
   {
@@ -66,7 +66,7 @@ const designs = [
   },
   {
     id: 10,
-    title: "3D Product",
+    title: "T-Shirt Design",
     image: design10,
   },
   {
