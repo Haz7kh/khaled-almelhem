@@ -30,6 +30,8 @@
 
   /* GENERAL TRANSITION VARIABLE */
   --transition: all 500ms ease;
+  background: rgba(255, 255, 255, 0.1) url("../public/imgs/bg20.svg")
+    center/cover no-repeat;
 }
 
 html {
@@ -67,12 +69,12 @@ main {
 /* GENERAL SECTION STYLES */
 section {
   padding: 10rem 0;
-  background: var(--color-light);
+  /* background: url("../public/imgs/bg10.svg") center/cover no-repeat; */
   transition: var(--transition);
 }
 
 section:nth-child(even) {
-  background: var(--color-white);
+  /* background: url("../public/imgs/bg7.png") center/cover no-repeat; */
 }
 
 section > h2 {
@@ -83,6 +85,7 @@ section > p {
   text-align: center;
   margin: 0.5rem auto 4rem;
   width: 40%;
+  color: aliceblue;
 }
 
 /* GENERAL SECTION STYLES */

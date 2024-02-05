@@ -7,7 +7,7 @@
 .about-portrait {
   height: fit-content;
   max-height: 40rem;
-  border: 1rem solid #ffa500;
+  border: 1rem solid #ffa60024;
   transition: var(--transition);
 }
 
@@ -18,17 +18,20 @@
 .about-cards {
   margin: 3rem 0 1.5rem;
   display: grid;
+
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
 
 .card.about-card {
   text-align: center;
+  background-color: #ffffff57;
 }
 
 .about-card-icon {
   font-size: 1.3rem;
-  color: #ffa500;
+  background-color: #fff;
+  color: #000080;
   border-radius: var(--border-radius-3);
   width: fit-content;
   margin-inline: auto;
@@ -49,13 +52,14 @@
 
 .about-right p {
   margin-bottom: 0.8rem;
+  color: aliceblue;
 }
 
 .about-right .btn {
   margin-top: 2.5rem;
 }
 .btn-read {
-  background: #ffa500;
+  background: #000080;
   color: var(--color-white);
   padding: 0.5rem;
   border-radius: 5px;

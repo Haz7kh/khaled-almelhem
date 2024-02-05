@@ -2,12 +2,14 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem 4rem;
+  color: rgb(81, 80, 80);
 }
 
 .card.service {
   display: flex;
   align-items: flex-start;
   gap: 1rem;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .service-icon {

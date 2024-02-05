@@ -20,6 +20,7 @@
   font-size: 1.2em;
   margin-bottom: 20px;
   text-align: center;
+  color: #ebebeb;
 }
 
 .design-items {
@@ -33,7 +34,7 @@
   position: relative;
   overflow: hidden;
   border-radius: 8px;
-  box-shadow: 0 0 10px #ffa500;
+  box-shadow: 0 0 10px #000080;
   transition: transform 0.3s ease;
   height: 300px; /* Set a fixed height for the design items */
 }
@@ -55,6 +56,7 @@
   font-size: 1.2em;
   margin-bottom: 10px;
   text-align: center;
+  color: #ebebeb;
 }
 
 .button-container {
@@ -67,7 +69,7 @@ button {
   display: block;
   width: 100%;
   padding: 10px;
-  background-color: #ffa500;
+  background-color: #ffa6004c;
   color: #000080;
   border: none;
   border-radius: 0 0 8px 8px;

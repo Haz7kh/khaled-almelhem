@@ -2,11 +2,10 @@ import React, { useState, useEffect } from "react";
 import "./navbar.css";
 import Logo from "../../assets/logo-shape.svg";
 import data from "./data";
-import { WiMoonAltWaningGibbous6 } from "react-icons/wi";
-import { useModalContext } from "../../context/modal-context";
+// import { useModalContext } from "../../context/modal-context";
 
 const NavBar = () => {
-  const { showModalHandler } = useModalContext();
+  // const { showModalHandler } = useModalContext();
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -41,9 +40,9 @@ const NavBar = () => {
           ))}
         </ul>
       </div>
-      <button id="theme__icon" onClick={showModalHandler}>
+      {/* <button id="theme__icon" onClick={showModalHandler}>
         <WiMoonAltWaningGibbous6 />
-      </button>
+      </button> */}
     </nav>
   );
 };

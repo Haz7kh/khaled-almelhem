@@ -1,5 +1,4 @@
 footer {
-  background: #000080;
   padding-top: 8rem;
   box-shadow: 0 -1rem 1.5rem hsla(var(--primary-hue), 68%, 42%, 20%);
   transition: var(--transition);
@@ -24,7 +23,7 @@ footer {
 }
 
 .nav-menu a {
-  color: #ffa500;
+  color: #ffffff;
   text-decoration: none;
   transition: transform 0.3s ease;
 }
@@ -37,7 +36,7 @@ footer {
 }
 
 .footer-socials a {
-  background: #ffa500;
+  background: #fcfcfc;
   color: #000080;
   padding: 0.6rem;
   border-radius: var(--border-radius-3);
@@ -50,9 +49,9 @@ footer {
 }
 
 .footer-copyright {
-  color: #ffa500;
+  color: #fcfcfc;
   text-align: center;
-  border-top: 2px solid rgba(255, 165, 0, 0.4);
+  /* border-top: 2px solid rgba(255, 165, 0, 0.4); */
   padding: 1.5rem 0;
 }
 
