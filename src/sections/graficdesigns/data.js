@@ -10,13 +10,12 @@ import design9 from "../../assets/gd/spray1.png";
 import design10 from "../../assets/gd/t-shirt.png";
 import design11 from "../../assets/gd/perfume1.png";
 import design12 from "../../assets/gd/perfum.png";
-import design13 from "../../assets/gd/tube.png";
+import design13 from "../../assets/gd/living-room.png";
 import design14 from "../../assets/gd/jambottle.png";
 import design15 from "../../assets/gd/robot.png";
 import design16 from "../../assets/gd/owlbox.png";
-import design17 from "../../assets/gd/shapes-logo.png";
-import design18 from "../../assets/gd/shap-logo02.png";
-import design19 from "../../assets/gd/in-post.png";
+
+import design17 from "../../assets/gd/in-post.png";
 
 const designs = [
   {
@@ -81,7 +80,7 @@ const designs = [
   },
   {
     id: 13,
-    title: "3D Product",
+    title: "3D Home Design",
     image: design13,
   },
   {
@@ -99,20 +98,11 @@ const designs = [
     title: "3D Box",
     image: design16,
   },
+
   {
     id: 17,
-    title: "2D/3D - Logos ",
-    image: design17,
-  },
-  {
-    id: 18,
-    title: "Illustrator Shape ",
-    image: design18,
-  },
-  {
-    id: 19,
     title: "Product Poster 3D ",
-    image: design19,
+    image: design17,
   },
 ];
 
