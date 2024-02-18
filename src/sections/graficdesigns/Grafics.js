@@ -19,7 +19,7 @@ const DesignGrid = () => {
       <div className="design-grid">
         <h2 className="title">Graphics Designs</h2>
         <p className="design-description">
-          Explore a collection of my graphic design projects below.
+          Explore a collection of my graphics design projects below.
         </p>
         <div className="design-items">
           {designs.map((design) => (
