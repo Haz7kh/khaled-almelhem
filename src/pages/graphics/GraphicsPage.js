@@ -1,9 +1,8 @@
-// DesignGrid.js
 import React, { useState } from "react";
 import designs from "./data";
-import "./grafics.css";
+import "./graphics.css";
 
-const DesignGrid = () => {
+const GraphicsPage = () => {
   const [selectedDesign, setSelectedDesign] = useState(null);
 
   const handleDesignClick = (design) => {
@@ -58,9 +57,10 @@ const DesignGrid = () => {
             </div>
           </div>
         )}
+        <a href="/">Back Home</a>
       </div>
     </section>
   );
 };
 
-export default DesignGrid;
+export default GraphicsPage;

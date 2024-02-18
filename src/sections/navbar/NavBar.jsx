@@ -38,6 +38,10 @@ const NavBar = () => {
               <a href={item.link}>{item.title}</a>
             </li>
           ))}
+          <li>
+            {" "}
+            <a href="/graphics">Graphics</a>{" "}
+          </li>
         </ul>
       </div>
       {/* <button id="theme__icon" onClick={showModalHandler}>

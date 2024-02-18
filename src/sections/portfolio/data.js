@@ -65,7 +65,7 @@ const data = [
     image: Image8,
     title: "Web-development  ",
     desc: "Crafted personalized website. Sleek design, intuitive navigation, and dynamic features showcase identity for impactful online presence",
-    demo: "hhttps://www.wmservice.se/",
+    demo: "https://www.wmservice.se/",
     github: "",
   },
 ];
