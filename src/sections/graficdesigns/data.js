@@ -1,8 +1,8 @@
 import design1 from "../../assets/post2.png";
-import design2 from "../../assets/gd/product2.png";
+
 import design3 from "../../assets/gd/wedding-poster.png";
 import design4 from "../../assets/gd/product1.png";
-import design5 from "../../assets/gd/perfume-pack.png";
+
 import design6 from "../../assets/gd/postermodel.png";
 import design7 from "../../assets/gd/perfume-water.png";
 import design8 from "../../assets/gd/discount-poster.png";
@@ -24,11 +24,6 @@ const designs = [
     image: design1,
   },
   {
-    id: 2,
-    title: "3D Product",
-    image: design2,
-  },
-  {
     id: 3,
     title: "Post",
     image: design3,
@@ -38,11 +33,7 @@ const designs = [
     title: "3D Product",
     image: design4,
   },
-  {
-    id: 5,
-    title: "3D-Product",
-    image: design5,
-  },
+
   {
     id: 6,
     title: "Poster",
