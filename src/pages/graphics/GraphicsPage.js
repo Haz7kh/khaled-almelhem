@@ -16,6 +16,9 @@ const GraphicsPage = () => {
   return (
     <section id="graphic">
       <div className="design-grid">
+        <button className="hem-btn">
+          <a href="/">Back Home</a>
+        </button>
         <h2 className="title">Graphics Designs</h2>
         <p className="design-description">
           Explore a collection of my graphics design projects below.
@@ -57,7 +60,9 @@ const GraphicsPage = () => {
             </div>
           </div>
         )}
-        <a href="/">Back Home</a>
+        <button className="hem-btn">
+          <a href="/">Back Home</a>
+        </button>
       </div>
     </section>
   );

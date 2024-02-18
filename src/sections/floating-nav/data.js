@@ -10,8 +10,8 @@ const data = [
   { id: 2, link: "#about", icon: <BsPersonFill /> },
   { id: 3, link: "#services", icon: <MdHomeRepairService /> },
   { id: 4, link: "#portfolio", icon: <AiFillAppstore /> },
-  { id: 5, link: "#graphic", icon: <MdBrush /> },
-  { id: 6, link: "#contact", icon: <AiFillMessage /> },
+  { id: 5, link: "#contact", icon: <AiFillMessage /> },
+  { id: 6, link: "/graphics", icon: <MdBrush /> },
 ];
 
 export default data;

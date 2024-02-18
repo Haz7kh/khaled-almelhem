@@ -30,8 +30,7 @@
 
   /* GENERAL TRANSITION VARIABLE */
   --transition: all 500ms ease;
-  background: rgba(255, 255, 255, 0.1) url("../public/imgs/bg20.svg")
-    center/cover no-repeat;
+  background: #b784b7;
 }
 
 html {

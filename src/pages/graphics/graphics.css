@@ -2,6 +2,7 @@
 
 #graphic {
   padding: 20px;
+  background: #b784b7;
 }
 
 .design-grid {
@@ -36,7 +37,7 @@
   border-radius: 8px;
   box-shadow: 0 0 10px #000080;
   transition: transform 0.3s ease;
-  height: 300px; /* Set a fixed height for the design items */
+  height: 400px; /* Set a fixed height for the design items */
 }
 
 .img-container {
@@ -48,7 +49,8 @@
 .design-items img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+
+  margin: 5px 5px 5px 0;
   border-radius: 8px 8px 0 0;
 }
 
@@ -71,6 +73,16 @@ button {
   padding: 10px;
   background-color: #ffa6004c;
   color: #000080;
+  border: none;
+  border-radius: 0 0 8px 8px;
+  cursor: pointer;
+}
+.hem-btn {
+  width: 200px;
+  height: inherit;
+  padding: 10px;
+  background-color: #000080;
+  color: #ebebeb;
   border: none;
   border-radius: 0 0 8px 8px;
   cursor: pointer;
