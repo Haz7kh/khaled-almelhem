@@ -1,4 +1,5 @@
 import design1 from "../../assets/post2.png";
+import design2 from "../../assets/gd/orange-juice.png";
 
 import design3 from "../../assets/gd/wedding-poster.png";
 import design4 from "../../assets/gd/product1.png";
@@ -22,6 +23,11 @@ const designs = [
     id: 1,
     title: "Ad/post",
     image: design1,
+  },
+  {
+    id: 2,
+    title: "Fresh juice",
+    image: design2,
   },
   {
     id: 3,
