@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import designs from "./data";
 import "./graphics.css";
+import { AiOutlineHome } from "react-icons/ai";
 
 const GraphicsPage = () => {
   const [selectedDesign, setSelectedDesign] = useState(null);
@@ -16,9 +17,12 @@ const GraphicsPage = () => {
   return (
     <section id="graphic">
       <div className="design-grid">
-        <button className="hem-btn">
-          <a href="/">Back Home</a>
-        </button>
+        <div className="hem-btn-con">
+          <AiOutlineHome style={{ fontSize: "30" }} />
+          <button className="hem-btn">
+            <a href="/"> Back Home</a>
+          </button>
+        </div>
         <h2 className="title">Graphics Designs</h2>
         <p className="design-description">
           Explore a collection of my graphics design projects below.
@@ -60,9 +64,12 @@ const GraphicsPage = () => {
             </div>
           </div>
         )}
-        <button className="hem-btn">
-          <a href="/">Back Home</a>
-        </button>
+        <div className="hem-btn-con">
+          <AiOutlineHome style={{ fontSize: "30" }} />
+          <button className="hem-btn">
+            <a href="/"> Back Home</a>
+          </button>
+        </div>
       </div>
     </section>
   );

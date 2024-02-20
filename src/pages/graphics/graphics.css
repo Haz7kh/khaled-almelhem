@@ -77,15 +77,24 @@ button {
   border-radius: 0 0 8px 8px;
   cursor: pointer;
 }
-.hem-btn {
-  width: 200px;
-  height: inherit;
+.hem-btn-con {
+  display: flex;
   padding: 10px;
-  background-color: #000080;
-  color: #ebebeb;
+  width: 250px;
+  background-color: #ffa500;
+  color: #000080;
   border: none;
-  border-radius: 0 0 8px 8px;
+  border-radius: 10px 0 10px 0;
   cursor: pointer;
+}
+
+.hem-btn {
+  color: #ebebeb;
+  background: none;
+  width: 200px;
+}
+.hem-btn a {
+  color: #ebebeb;
 }
 button:hover {
   color: #fff;
