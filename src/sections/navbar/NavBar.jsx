@@ -28,7 +28,7 @@ const NavBar = () => {
     <nav className={scrolled ? "scrolled" : ""}>
       <div className={`container nav_container${scrolled ? " scrolled" : ""}`}>
         <div className="nav_logo">
-          <a href="index.html">
+          <a href="/">
             <img src={Logo} alt="Logo" />
           </a>
         </div>
