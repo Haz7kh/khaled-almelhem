@@ -14,7 +14,7 @@ export const links = [
 export const socials = [
   {
     id: 1,
-    link: "https://www.instagram.com/khaledalmelhem7/",
+    link: "https://www.instagram.com/kh.m7i/",
     icon: <AiOutlineInstagram />,
   },
   {
