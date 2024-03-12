@@ -6,7 +6,7 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 const data = [
   {
     id: 1,
-    link: "https://www.instagram.com/khaledalmelhem7/",
+    link: "https://www.instagram.com/kh.m7i/",
     icon: <AiOutlineInstagram />,
   },
   {
