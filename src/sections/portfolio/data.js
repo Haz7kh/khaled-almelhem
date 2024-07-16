@@ -5,6 +5,8 @@ import Image4 from "../../assets/p2.png";
 import Image6 from "../../assets/p6.png";
 import Image7 from "../../assets/projectjurid.png";
 import Image8 from "../../assets/projectwm.png";
+import Image9 from "../../assets/proj9.jpg";
+import Image10 from "../../assets/proj10.png";
 
 const data = [
   {
@@ -66,6 +68,24 @@ const data = [
     title: "Web-development  ",
     desc: "Crafted personalized website. Sleek design, intuitive navigation, and dynamic features showcase identity for impactful online presence",
     demo: "https://www.wmservice.se/",
+    github: "",
+  },
+  {
+    id: 9,
+    category: "live-projects",
+    image: Image9,
+    title: "Web-development  ",
+    desc: "Crafted personalized website. Sleek design, done by using React + node js ",
+    demo: "https://stockholmtab.se/",
+    github: "https://github.com/Haz7kh/stkholmTab.git",
+  },
+  {
+    id: 10,
+    category: "live-projects",
+    image: Image10,
+    title: "Web-development  ",
+    desc: "Sleek design, done by WordPress ",
+    demo: "https://spnordeanab.com/",
     github: "",
   },
 ];
